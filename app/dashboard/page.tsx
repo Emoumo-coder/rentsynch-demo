@@ -21,10 +21,6 @@ export default function DashboardPage() {
     }
   }, [isAuthenticated, router])
 
-  if (!isAuthenticated) {
-    return null
-  }
-
   return (
     <div className="min-h-screen bg-background">
       <Header />
